@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 110px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 90px;
+}
+
+.nav-kiri {
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+    padding: 50px;
+    text-decoration: none;
+    display: flex;
+    padding-left: 200px;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: pink
+}
+
+.nav-kiri:hover {
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.nav-kanan {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: pink;
+    color: white;
+}
+
+.home-kiri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    padding-left: 200px;
+}
+
+.home-kiri h1 {
+    font-size: 42px;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.home-kiri h1:hover {
+    color: palevioletred;
+    transform: scale(1.1);
+}
+
+.home-kiri p {
+    color: #444;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+}
+
+.home-kiri a {
+    color: whitesmoke;
+    background-color: palevioletred;
+    border-radius: 24px;
+    padding: 14px 24px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.home-kiri a:hover {
+    color: #333;
+    background-color: #8dcbf7;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #8dcbf7;
+    transform: scale(1.1);
+}
+
+.home-kanan {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+img {
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.about,
+.contact,
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 200px;
+    color: white;
+    background-color: pink;
+}
+
+.about h1,
+.contact h1,
+.gallery h1 {
+    font-size: 36px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.about p,
+.contact p,
+.gallery p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+.contact-sosmed {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.contact-sosmed a {
+    width: 140px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: palevioletred;
+    border-radius: 30px;
+    padding: 14px 0;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.contact-sosmed a:hover {
+    color: #333;
+    background-color: #8dcbf7;
+    transform: scale(1.1);
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.gallery-alya a {
+    width: 140px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: palevioletred;
+    border-radius: 24px;
+    padding: 14px 24px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.gallery-alya a:hover {
+    color: #333;
+    background-color: #8dcbf7;
+    transform: scale(1.1);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    color: pink;
+    padding-top: 20px;
+    height: 120px;
+}
